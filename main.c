@@ -50,7 +50,7 @@ void main()
             move_sprite(1, x + 8, y);
             delay(10);
         }
-        if (joypad() == J_A) // If DOWN is pressed
+        if (joypad() == J_A) // if A is pressed 
         {
             printf("Cock");
             delay(100);
